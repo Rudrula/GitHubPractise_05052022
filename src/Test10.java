@@ -1,9 +1,18 @@
 
 public class Test10 {
 
-	private long age;
-	private String city;
+
 	
+	private String city;
+	private int age;
+	
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
 	public static void main(String[] args) {
 		
 		
@@ -11,13 +20,7 @@ public class Test10 {
 		System.out.println("Test10");
 	}
 
-	public int getAge() {
-		return (int) age;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
-	}
+	
 
 	public String getCity() {
 		return city;
