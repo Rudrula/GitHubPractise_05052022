@@ -4,6 +4,15 @@ public class Test10 {
 
 	
 	private String city;
+	private int salary;
+	public int getSalary() {
+		return salary;
+	}
+
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+
 	private int age;
 	
 	public int getAge() {
