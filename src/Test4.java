@@ -6,6 +6,7 @@ public class Test4 {
 		System.out.println("Change Test4 file");
 		System.out.println("Modified Test4 file");
 		System.out.println("Updated Test4 file");
+		System.out.println("Dev Branch Test");
 		
 	}
 
